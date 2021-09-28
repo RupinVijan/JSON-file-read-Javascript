@@ -56,7 +56,7 @@ fs.readFile(path, (err,data)=>{
     }
     const y=JSON.parse(data);
     let i;
-    for (i=0;i<y,length;i++){
+    for (i=0;i<y.length;i++){
         console.log(y[i].title);
     }
 })
